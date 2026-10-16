@@ -1,0 +1,24 @@
+flask==2.3.3        # To build the web app and handle user requests. Flask can connect webpage to python backend.
+                    # Flask can receive a user's question and pass it to the RAG pipeline.
+
+werkzeug==2.3.7     # Provides important web server and request-handling functionality used by flask
+                    # It is a WSGI utility library that provides functionality for Python web applications.
+
+langchain==0.0.267  # Helps connect language models, document retrieval, prompts, and application logic.
+                    # LangChain acts as the orchestration layer that connects the components of your RAG pipeline.
+
+openai==0.28.0      # Allows your Python application to communicate with OpenAI models through the API.
+
+python-dotenv==0.19.0   # Loads configuration values and secrets from a .env file into environment variables.
+
+boto3==1.28.0       # Allows Python applications to interact with Amazon Web Services (AWS).
+                    # Boto3 is the AWS Software Development Kit for Python.
+
+chromadb==0.4.0     # Stores vector embeddings and helps retrieve semantically relevant information.
+
+pypdf==3.9.0        # Extracts text and reads PDF documents.
+
+tiktoken==0.5.1     # Counts tokens and encodes text into tokens using supported tokenization schemes.
+                    # Controlling input length, Managing costs, Splitting documents
+
+unstructured==0.10.30   # Helps extract and organize information from different document formats.
