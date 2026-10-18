@@ -26,7 +26,7 @@ class LLMService:
 ## Vector database - Stores document chunks and their embeddings, helps find relevant document info
         self.chain = ConversationalRetrievalChain.from_llm(
             llm = self.llm,
-            retriever = vector_store.vectorstore.as_retriever(),
+            retriever = vector_store.vectore_store.as_retriever(),
             memory=self.memory
         )
     def get_response(self, query):
